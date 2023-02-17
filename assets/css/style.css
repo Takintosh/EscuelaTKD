@@ -51,7 +51,6 @@ footer .low-row {
 }
 
 footer a {
-    /*margin: 0 10px 12px 10px;*/
     font-weight:bold;
     line-height:1.6;
     font-size:1rem;
@@ -119,6 +118,7 @@ section h2 span {
     color: #F1F1F1;
 }
 #training-programs img {
+    width: 80%;
     max-width: 300px;
     border: #F1F1F1 solid 3px;
     margin-bottom: 20px;
