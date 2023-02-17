@@ -1,0 +1,175 @@
+body {
+    background-color: #F1F1F1 !important;
+    font-family: 'Roboto', sans-serif;
+    color: #333333 !important;
+    min-height: 100vh;
+    padding-top: 0px;
+}
+
+main {
+    min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: #F1F1F1;
+    box-shadow: #333333 0px 0px 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav .active {
+    color: #0066FF !important;
+}
+
+footer {
+    background-color: #333;
+    color: #F1F1F1;
+    position: absolute;
+    width: 100%;
+    /*box-shadow: #333333 0px 0px 10px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgTWFjaW50b3NoIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjI4RkZBQTgzNzg1NzExRTU4NTQyODc3OUM4MTZGMUREIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjI4RkZBQTg0Nzg1NzExRTU4NTQyODc3OUM4MTZGMUREIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjhGRkFBODE3ODU3MTFFNTg1NDI4Nzc5QzgxNkYxREQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGRkFBODI3ODU3MTFFNTg1NDI4Nzc5QzgxNkYxREQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz66uHInAAAAIUlEQVR42mL5//8/AyMj42YGIGBigABfEMEIkoEBgAADAKvuBwVS8BAjAAAAAElFTkSuQmCC);
+    background-size: 3px 3px;*/
+}
+footer .container-fluid {
+    background-color: #0066FF;
+    margin: 0;
+    padding: 20px 0;
+}
+footer .container-fluid h6 {
+    margin: 0;
+}
+footer .low-row {
+    padding: 10px 0;
+}
+.footer-logo-escuela {
+    max-width: 150px;
+    margin-left: 10px;
+}
+
+footer a {
+    /*margin: 0 10px 12px 10px;*/
+    font-weight:bold;
+    line-height:1.6;
+    font-size:1rem;
+    text-decoration:none;
+    color:inherit;
+    opacity:0.8;
+}
+footer a:hover {
+    opacity:1;
+}
+
+footer .item-social {
+    padding: 0;
+    margin: 0;
+}
+
+footer .item-social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    /*border-radius:50%;*/
+    box-shadow:0 0 0 2px #F1F1F1;
+    margin:0 0 0 8px;
+    color:#F1F1F1;
+    opacity:0.8;
+}
+footer .item-social > a:hover {
+    opacity:1;
+}
+footer .quick-links {
+    padding-top: 15px;
+}
+footer .footer-copy {
+    padding-top: 15px;
+    font-size: 0.8rem;
+    opacity: .8;
+}
+
+section {
+    padding-top: 100px;
+}
+section h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+section h2 span {
+    color: #0066FF;
+}
+
+#info-arts {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#training-programs {
+    background-color: #0066FF;
+    padding-bottom: 100px;
+    color: #F1F1F1;
+}
+#training-programs h2 {
+    color: #F1F1F1;
+}
+#training-programs img {
+    max-width: 300px;
+    border: #F1F1F1 solid 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#training-programs h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#instructors .card {
+    color: #333333;
+    background-color: rgba(0,0,0,0);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+#instructors .card .card-body {
+    padding: 20px 0;
+}
+#instructors .card .card-body .card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #0066FF;
+}
+#instructors .card .card-body .card-text {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: #333333;
+}
+#instructors .card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    border: #333333 solid 3px;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+.border-green {
+    border: 2px solid green;
+}
+.border-blue {
+    border: 2px solid blue;
+}
+.border-yellow {
+    border: 2px solid yellow;
+}
+
+
