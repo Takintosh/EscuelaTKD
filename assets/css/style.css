@@ -112,22 +112,24 @@ section p {
     padding-bottom: 100px;
 }
 
-#training-programs {
+#training-programs, #training-programs-about {
     background-color: #0066FF;
     padding-bottom: 100px;
     color: #F1F1F1;
 }
-#training-programs h2 {
+#training-programs h2, #training-programs-about h2 {
     color: #F1F1F1;
+    margin-bottom: 50px;
 }
-#training-programs img {
+#training-programs img, #training-programs-about img {
     width: 80%;
     max-width: 300px;
     border: #F1F1F1 solid 3px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-#training-programs h6 {
+#training-programs h6 , #training-programs-about h5 {
+    margin-top: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -213,7 +215,7 @@ section p {
 
 #info-school-page {
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 @media (max-width: 992px) {
     #info-school-page {
