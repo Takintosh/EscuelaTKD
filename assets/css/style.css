@@ -22,7 +22,7 @@ nav {
     font-weight: 400;
 }
 nav .active {
-    color: #0066FF !important;
+    color: #0049A8 !important;
 }
 
 footer {
@@ -35,7 +35,7 @@ footer {
     background-size: 3px 3px;*/
 }
 footer .container-fluid {
-    background-color: #0066FF;
+    background-color: #0049A8;
     margin: 0;
     padding: 20px 0;
 }
@@ -101,7 +101,7 @@ section h2 {
     margin-bottom: 20px;
 }
 section h2 span {
-    color: #0066FF;
+    color: #0049A8;
 }
 section p {
     font-size: 1rem;
@@ -113,7 +113,7 @@ section p {
 }
 
 #training-programs, #training-programs-about {
-    background-color: #0066FF;
+    background-color: #0049A8;
     padding-bottom: 100px;
     color: #F1F1F1;
 }
@@ -128,10 +128,16 @@ section p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-#training-programs h6 , #training-programs-about h5 {
-    margin-top: 20px;
+#training-programs h6, #training-programs-about h5 {
     font-weight: 700;
     text-transform: uppercase;
+}
+#training-programs h6, #training-programs-about h6 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+#training-programs-about h5 {
+    margin-top: 20px;
 }
 
 #gallery {
@@ -140,7 +146,7 @@ section p {
 }
 
 #call-to-action {
-    background-color: #0066FF;
+    background-color: #0049A8;
     color: #F1F1F1;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -160,7 +166,7 @@ section p {
     display: inline-block;
 }
 #call-to-action a:hover {
-    color: #0066FF;
+    color: #0049A8;
     background-color: #F1F1F1;
 }
 
@@ -172,7 +178,7 @@ section p {
     border-radius: 0;
 }
 #faq .accordion-button {
-    background-color: #0066FF;
+    background-color: #0049A8;
     color: #F1F1F1;
     font-size: 1.2rem;
     box-shadow: none;
@@ -196,7 +202,7 @@ section p {
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 0;
-    color: #0066FF;
+    color: #0049A8;
 }
 #instructors .card .card-body .card-text {
     font-size: 1.2rem;
@@ -223,7 +229,7 @@ section p {
     }
 }
 #info-school-page img {
-    border: #0066FF 4px solid;
+    border: #0049A8 4px solid;
     box-shadow: #333333 0px 0px 10px;
 }
 
