@@ -3,11 +3,6 @@
     position: relative;
     overflow: hidden;
 }
-/*@media(min-width: 600px) {
-    .video-container {
-        height: 100vh;
-    }
-}*/
 
 video {
     object-fit: cover;
@@ -56,6 +51,11 @@ video {
     backdrop-filter: saturate(20%) brightness(60%);
     color: #F1F1F1;
     text-transform: uppercase;
+}
+
+.callout img {
+    width: 400px;
+    margin: 0 auto;
 }
 
 .callout h1 {
