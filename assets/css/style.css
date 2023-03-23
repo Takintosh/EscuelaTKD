@@ -215,7 +215,7 @@ section p {
     height: 200px;
     margin: 0 auto;
     display: block;
-    border: #333333 solid 3px;
+    /*border: #333333 solid 4px;*/
 }
 
 
@@ -237,6 +237,32 @@ section p {
     padding-top: 0;
     padding-bottom: 80px;
 }
+
+#about-header {
+    color: #F1F1F1;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    background: url("../images/about-header.webp") rgba(0,0,0,0.8) no-repeat top center / cover;
+    background-blend-mode: multiply;
+}
+#about-header .about-header-bg {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    backdrop-filter: blur(5px);
+}
+#about-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 .border-red {
     border: 2px solid red;
