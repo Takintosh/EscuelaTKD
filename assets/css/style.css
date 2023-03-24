@@ -298,7 +298,14 @@ section p {
 }
 
 
-
+#taekwondo-info {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#hapkido-info {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 
 
