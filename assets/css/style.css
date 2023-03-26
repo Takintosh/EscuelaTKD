@@ -288,6 +288,14 @@ section p {
     font-weight: 700;
 }
 
+#material-didactico .tab-content {
+    padding-top: 50px;
+}
+#material-didactico .tab-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 @media (min-width: 992px) {
     #page-header {
         padding-top: 130px;
