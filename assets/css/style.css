@@ -301,17 +301,17 @@ section p {
         padding-top: 130px;
         padding-bottom: 0;
     }
-    #info-school, #taekwondo-info {
+    #info-school {
         padding-top: 100px;
     }
     #info-arts, #asociaciones-logos, #hapkido-info {
         padding-bottom: 100px;
     }
-    #training-programs, #faq, #training-programs-about, #instructors, #material-didactico {
+    #training-programs, #faq, #training-programs-about, #instructors {
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    #info-school-page {
+    #info-school-page, #taekwondo-info, #material-didactico  {
         padding-top: 150px;
     }
     #taekwondo-info h2, #hapkido-info h2 {
