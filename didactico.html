@@ -52,7 +52,7 @@
                     <a class="nav-link" href="escuela.html">Sobre la Escuela</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="artesmarciales.html">Taekwondo & Hapkido</a>
+                    <a class="nav-link" href="artesmarciales.html">Taekwondo & Hapkido</a>
                 </li>
             </ul>
         </div>
@@ -66,7 +66,7 @@
         <div class="collapse navbar-collapse w-100 order-3 navbarNav">
             <ul class="navbar-nav ms-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="didactico.html">Material
+                    <a class="nav-link active" href="didactico.html" aria-current="page" tabindex="-1" aria-disabled="true">Material
                         Didáctico</a>
                 </li>
                 <li class="nav-item">
@@ -90,10 +90,10 @@
         <div class="row">
             <div class="col-12 text-center text-md-start">
                 <h1 class="">
-                    <strong>Taekwondo & Hapkido</strong>
+                    <strong>Material Didáctico</strong>
                 </h1>
                 <h5 class="">
-                    El legado y la esencia de dos disciplinas marciales únicas
+                    Material de apoyo para nuestros alumnos
                 </h5>
             </div>
 
@@ -104,58 +104,41 @@
 
 <main class="">
 
-    <section id="taekwondo-info">
+    <section id="material-didactico">
+
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-8 text-center text-md-start">
-                    <h2 class="text-center">¿Qué es <span>Taekwondo</span>?</h2>
-                    <p>
-                        Con una historia que se remonta a las artes marciales
-                        tradicionales de Corea, el Taekwondo moderno se estableció en la década de 1950 y 1960.
-                        A lo largo de los años, ha evolucionado y se ha convertido en un deporte olímpico
-                        popular.
-                    </p>
-                    <p>
-                        Una de las principales características del Taekwondo es su enfoque en las patadas. Los
-                        practicantes de Taekwondo se esfuerzan por lograr patadas poderosas, precisas y rápidas.
-                        Además, el Taekwondo también enfatiza el control mental y la filosofía de vida. Los
-                        practicantes de Taekwondo aprenden a desarrollar la disciplina, la perseverancia y la
-                        autoconfianza a través de la práctica regular.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/tkd.webp" alt="Taekwondo" class="w-75">
+                <div class="col-12">
+
+                    <ul class="nav nav-tabs justify-content-center text-center">
+                        <li class="nav-item w-50">
+                            <button class="nav-link active w-100" id="taekwondo-tab" data-bs-toggle="tab" data-bs-target="#taekwondo" type="button" role="tab" aria-controls="taekwondo" aria-selected="true">
+                                <h1>TAEKWONDO</h1>
+                            </button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100" id="hapkido-tab" data-bs-toggle="tab" data-bs-target="#hapkido" type="button" role="tab" aria-controls="hapkido">
+                                <h1>HAPKIDO</h1>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane fade show active" id="taekwondo" role="tabpanel" aria-labelledby="taekwondo-tab">
+                            Taekwondo
+                        </div>
+
+                        <div class="tab-pane fade show" id="hapkido" role="tabpanel" aria-labelledby="hapkido-tab">
+                            Hapkido
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
     </section>
 
-    <section id="hapkido-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 text-center text-md-start order-md-2">
-                    <h2 class="text-center">¿Qué es <span>Hapkido</span>?</h2>
-                    <p>
-                        El Hapkido es un arte marcial coreano que se originó en la década de 1940 como una
-                        síntesis de varias disciplinas marciales, incluyendo el Daito-ryu Aikijujutsu. A lo
-                        largo de los años, el Hapkido se ha desarrollado y ha evolucionado, incorporando
-                        elementos de otras artes marciales.
-                    </p>
-                    <p>
-                        Una de las principales características del Hapkido es su enfoque en la defensa personal
-                        y la lucha cuerpo a cuerpo. Los practicantes de Hapkido aprenden técnicas de bloqueo,
-                        inmovilización y golpes que les permiten defenderse en situaciones de la vida real.
-                        Además, el Hapkido también enfatiza el uso de la fuerza y el poder del oponente en su
-                        contra, lo que lo hace particularmente efectivo para lidiar con oponentes más grandes y
-                        fuertes.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4 text-center order-md-1">
-                    <img src="assets/images/hkd.webp" alt="Hapkido" class="w-75">
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 </main>
