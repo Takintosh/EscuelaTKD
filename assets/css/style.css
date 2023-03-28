@@ -284,9 +284,6 @@ section p {
     border-color: transparent transparent #F1F1F1;
     border-bottom: 4px solid #0049A8 !important;
 }
-#material-didactico .nav-link.active h1 {
-    font-weight: 700;
-}
 
 #material-didactico .tab-content {
     padding-top: 50px;
